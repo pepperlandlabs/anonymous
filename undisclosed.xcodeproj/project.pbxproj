@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01252BA48909446A83C8808D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A557F302F254315A52716FD /* libPods.a */; };
 		209752674C216AEF1C4DB8A1 /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 5FF54538151FBB7C3EE82624 /* Main.storyboard */; };
 		2ACE291B237D5E34EF986EA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05DE496D282D64E7A911BF4 /* Foundation.framework */; };
 		B39E79E1513F41629510F387 /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F43F2595404FDBBD7359D1 /* libPods-unit_tests.a */; };
+		CB468B3A1A0568B8001A6218 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB468B391A0568B8001A6218 /* Accounts.framework */; };
+		CB468B3C1A0568BD001A6218 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB468B3B1A0568BD001A6218 /* Social.framework */; };
+		CB468B3E1A056EC3001A6218 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB468B3D1A056EC3001A6218 /* ConversationsViewController.swift */; };
+		CB468B401A056ED3001A6218 /* NewQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB468B3F1A056ED3001A6218 /* NewQuestionViewController.swift */; };
+		CB468B421A056EE3001A6218 /* QuestionFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB468B411A056EE3001A6218 /* QuestionFilterViewController.swift */; };
+		CB468B441A05777D001A6218 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB468B431A05777D001A6218 /* Twitter.framework */; };
 		EFA5A36F7FECAA29E026F7EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5820E5EBF74C9DA47FBFA4E0 /* AppDelegate.swift */; };
 		F26BCFAA03FA190DB391DFEA /* LaunchScreen.xib in Sources */ = {isa = PBXBuildFile; fileRef = C01D2F5F9C061B34C52E3F0F /* LaunchScreen.xib */; };
 		FB5EE2B7F2BF926BF7D92DD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98C97963F4028103264BDBB9 /* Images.xcassets */; };
@@ -32,10 +39,19 @@
 		57F43F2595404FDBBD7359D1 /* libPods-unit_tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unit_tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5820E5EBF74C9DA47FBFA4E0 /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FF54538151FBB7C3EE82624 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6A557F302F254315A52716FD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7121CF9E1399BFCAF92BEB56 /* undisclosed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = undisclosed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C97963F4028103264BDBB9 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B05DE496D282D64E7A911BF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BEE64554680F467B875B1D78 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		C01D2F5F9C061B34C52E3F0F /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		CB468B361A056522001A6218 /* undisclosed-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "undisclosed-Bridging-Header.h"; sourceTree = "<group>"; };
+		CB468B391A0568B8001A6218 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		CB468B3B1A0568BD001A6218 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		CB468B3D1A056EC3001A6218 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		CB468B3F1A056ED3001A6218 /* NewQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewQuestionViewController.swift; sourceTree = "<group>"; };
+		CB468B411A056EE3001A6218 /* QuestionFilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionFilterViewController.swift; sourceTree = "<group>"; };
+		CB468B431A05777D001A6218 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		E15A47FEEB37A7AD1E1EA54F /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -44,7 +60,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB468B441A05777D001A6218 /* Twitter.framework in Frameworks */,
+				CB468B3C1A0568BD001A6218 /* Social.framework in Frameworks */,
+				CB468B3A1A0568B8001A6218 /* Accounts.framework in Frameworks */,
 				2ACE291B237D5E34EF986EA9 /* Foundation.framework in Frameworks */,
+				01252BA48909446A83C8808D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +118,9 @@
 			isa = PBXGroup;
 			children = (
 				5820E5EBF74C9DA47FBFA4E0 /* AppDelegate.swift */,
+				CB468B3D1A056EC3001A6218 /* ConversationsViewController.swift */,
+				CB468B3F1A056ED3001A6218 /* NewQuestionViewController.swift */,
+				CB468B411A056EE3001A6218 /* QuestionFilterViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -159,8 +182,12 @@
 		A1DA68FBF3CA0DC3B5FAC02D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CB468B431A05777D001A6218 /* Twitter.framework */,
+				CB468B3B1A0568BD001A6218 /* Social.framework */,
+				CB468B391A0568B8001A6218 /* Accounts.framework */,
 				464BB64051DF94E2EF15901D /* iOS */,
 				57F43F2595404FDBBD7359D1 /* libPods-unit_tests.a */,
+				6A557F302F254315A52716FD /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -194,6 +221,8 @@
 				A1DA68FBF3CA0DC3B5FAC02D /* Frameworks */,
 				21B156292BAFD425CE494F75 /* Products */,
 				2418A073A4AF4F67AF6F2BF5 /* Pods-unit_tests.xcconfig */,
+				BEE64554680F467B875B1D78 /* Pods.xcconfig */,
+				CB468B361A056522001A6218 /* undisclosed-Bridging-Header.h */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
@@ -230,10 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF9307F3CC9030A8CD944D3F /* Build configuration list for PBXNativeTarget "undisclosed" */;
 			buildPhases = (
+				E64418DF12654DE1B79A0C42 /* Check Pods Manifest.lock */,
 				5CD5A0CAB60D6BE728433881 /* Sources */,
 				0461CD605F04352DDAFD48D3 /* Frameworks */,
 				AD5BEB783724B967FA92BC6B /* Resources */,
 				950A197B77D808457B9BD50B /* Warn for TODO and FIXME comments */,
+				A309E16FDAE041CC9005892A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -340,6 +371,21 @@
 			shellPath = /bin/sh;
 			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nFILE_EXTENSIONS=\"h|m|mm|c|cpp\"\nfind -E \"${SRCROOT}\" -ipath \"${SRCROOT}/pods\" -prune -o \\( -regex \".*\\.($FILE_EXTENSIONS)$\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
 		};
+		A309E16FDAE041CC9005892A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		CC253007B8D44B38BF365383 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -355,6 +401,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Pods-unit_tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E64418DF12654DE1B79A0C42 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -365,6 +426,9 @@
 				EFA5A36F7FECAA29E026F7EF /* AppDelegate.swift in Sources */,
 				209752674C216AEF1C4DB8A1 /* Main.storyboard in Sources */,
 				F26BCFAA03FA190DB391DFEA /* LaunchScreen.xib in Sources */,
+				CB468B401A056ED3001A6218 /* NewQuestionViewController.swift in Sources */,
+				CB468B421A056EE3001A6218 /* QuestionFilterViewController.swift in Sources */,
+				CB468B3E1A056EC3001A6218 /* ConversationsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,8 +573,10 @@
 		};
 		4FC9FC558ED1D72D833229A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEE64554680F467B875B1D78 /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = YES;
 				DSTROOT = /tmp/xcodeproj.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -529,14 +595,17 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "undisclosed-Bridging-Header.h";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		ACEC62EE6469F9C12A69A94F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEE64554680F467B875B1D78 /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/xcodeproj.dst;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -553,6 +622,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "undisclosed-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
